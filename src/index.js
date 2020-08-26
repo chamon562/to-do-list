@@ -1,12 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import MyList from './MyList';
 import * as serviceWorker from './serviceWorker';
+
+const toDos = [
+  "Drop it low low", 
+  "Eat spiders", 
+  "Go to a Freestyle battle", 
+  "PLay some Dota 2",
+  "Stop contemplating and over exagerating execute more action taking"
+
+]
+ 
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MyList theList={toDos}/>
   </React.StrictMode>,
   document.getElementById('root')
 );

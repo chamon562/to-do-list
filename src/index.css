@@ -1,13 +1,32 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background-image: url(https://i5.walmartimages.com/asr/a737b29d-dd13-40ba-992f-2ecdb97d89c9_1.3806c89ddf05f27746af3530175e3c8b.jpeg);
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+li {
+  border-bottom: 1px solid #ccc;
+  width: 200px;
+  display: block;
+  margin-bottom: 20px;
+  color: blue;
+}
+
+div{
+  width: 500px;
+  margin: auto;
+}
+
+ul {
+  width: 200px;
+  margin: auto;
+}
+
+button {
+  margin-bottom: 10px;
 }
